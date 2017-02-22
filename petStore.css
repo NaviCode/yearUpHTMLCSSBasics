@@ -87,6 +87,17 @@ h1 {
 	
 }
 
+#pet4Div{
+	background-image: url("https://static.pexels.com/photos/162321/dog-puppy-yorkshire-terrier-yorkshire-terrier-puppy-162321.jpeg")
+}
+
+#pet5Div{
+	background-image: url("https://static.pexels.com/photos/163685/dog-puppy-yorkshire-terrier-yorkshire-terrier-puppy-163685.jpeg")
+}
+
+#pet6Div{
+	background-image: url("https://static.pexels.com/photos/117486/pexels-photo-117486.jpeg")
+}
 
 
 #adoptText {
@@ -119,13 +130,13 @@ footer {
 @media only screen and (max-width: 600px) {
 	.petDiv{
 		width: 100%;
-		border: 0;
+		height: auto;
 	}
-}
-
-@media only screen and (max-width: 320px){
-	.petDiv{
-		width: 100%;
-		border: 0;
+	#headerDiv h1{
+		white-space: nowrap;
+		font-size: 2em;
+	}
+	#footerCopyright{
+		white-space: nowrap;
 	}
 }
